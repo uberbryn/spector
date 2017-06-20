@@ -1,4 +1,5 @@
 .flex { display: flex; }
+.flex-inline { display: inline-flex; }
 .flex-column { flex-direction: column; }
 .flex-wrap { flex-wrap: wrap; }
 
@@ -46,6 +47,7 @@
   @each $bp-name, $bp-value in $breakpoints {
     @media (min-width: $bp-value) {
       .#{$bp-name}-flex { display: flex; }
+      .#{$bp-name}-flex-inline { display: inline-flex; }
       .#{$bp-name}-row { flex-direction: row; }
       .#{$bp-name}-column { flex-direction: column; }
     }
