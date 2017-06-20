@@ -25,6 +25,15 @@ $h4: 1em;
 $h5: .875em;
 $h6: .75em;
 
+// Font Weights
+$font-weights: (
+  light: 300,
+  regular: 400,
+  medium: 500,
+  semibold: 600,
+  bold: 700
+);
+
 $line-height-1:  1;
 $line-height-2:  1.25;
 $line-height-3:  1.5;
