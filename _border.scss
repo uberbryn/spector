@@ -1,25 +1,25 @@
 .border {
-  border-style: solid;
+  border-style: $border-style;
   border-width: $border-width;
 }
 
 .border-top {
-  border-top-style: solid;
+  border-top-style: $border-style;
   border-top-width: $border-width;
 }
 
 .border-right {
-  border-right-style: solid;
+  border-right-style: $border-style;
   border-right-width: $border-width;
 }
 
 .border-bottom {
-  border-bottom-style: solid;
+  border-bottom-style: $border-style;
   border-bottom-width: $border-width;
 }
 
 .border-left {
-  border-left-style: solid;
+  border-left-style: $border-style;
   border-left-width: $border-width;
 }
 
