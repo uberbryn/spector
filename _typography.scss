@@ -1,5 +1,6 @@
-//Fonts
-$body: 'SF UI Text', 'San Francisco', -apple-system, BlinkMacSystemFont, sans-serif;
+// Fonts
+$system-fonts: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'Segoe UI', 'lucida grande', 'helvetica neue', helvetica, 'Fira Sans', roboto, noto, 'Droid Sans', cantarell, oxygen, ubuntu, 'franklin gothic medium', 'century gothic', 'Liberation Sans', sans-serif;
+$body: $system-fonts;
 
 .font-body {
   font-family: $body;
