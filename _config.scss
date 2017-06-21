@@ -13,9 +13,9 @@ $breakpoints: (
 );
 
 // Loop Counts
-$margin-count: 8; //Generates margin classes 0.5rem increments
-$padding-count: 8; //Generates padding classes in 0.5rem increments
-$layout-count: 25; //Generates height/width classes in 0.5rem increments
+$margin-count: 8; // Generates margin classes .5rem increments
+$padding-count: 8; // Generates padding classes in .5rem increments
+$layout-count: 25; // Generates height/width classes in .5rem increments
 
 // Fonts
 $system-fonts: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'Segoe UI', 'lucida grande', 'helvetica neue', helvetica, 'Fira Sans', roboto, noto, 'Droid Sans', cantarell, oxygen, ubuntu, 'franklin gothic medium', 'century gothic', 'Liberation Sans', sans-serif;
@@ -38,10 +38,10 @@ $font-weights: (
   bold: 700
 );
 
-$line-height-1:  1;
-$line-height-2:  1.25;
-$line-height-3:  1.5;
-$line-height-4:  2;
+$line-height-1: 1;
+$line-height-2: 1.25;
+$line-height-3: 1.5;
+$line-height-4: 2;
 
 // UI Color Definitions
 $white: #FFFFFF;
@@ -71,7 +71,6 @@ $success: #26D58F;
 $attention: #EBCD2E;
   $attention-high: #F7D830;
   $attention-low: #DEC22B;
-
 
 $danger: #E91C53;
   $danger-high: #F51D57;
