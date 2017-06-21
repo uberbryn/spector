@@ -16,7 +16,7 @@
   .ml#{$i} { margin-left: #{$i * .5}rem; }
   .my#{$i} { margin-bottom: #{$i * .5}rem; margin-top: #{$i * .5}rem; }
   .mx#{$i} { margin-left: #{$i * .5}rem; margin-right: #{$i * .5}rem; }
-  .mnt#{$i} { margin-top: #{$i * .5}rem; }
-  .mnb#{$i} { margin-bottom: #{$i * -.5}rem; }
-  .mnx#{$i} { margin-left: #{$i * -.5}rem; margin-right: #{$i * -.5}rem; }
+  .mtn#{$i} { margin-top: #{$i * -.5}rem; }
+  .mbn#{$i} { margin-bottom: #{$i * -.5}rem; }
+  .mxn#{$i} { margin-left: #{$i * -.5}rem; margin-right: #{$i * -.5}rem; }
 }
