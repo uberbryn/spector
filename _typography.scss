@@ -1,6 +1,3 @@
-//Fonts
-$body: 'SF UI Text', 'San Francisco', -apple-system, BlinkMacSystemFont, sans-serif;
-
 .font-body {
   font-family: $body;
 }
@@ -16,9 +13,14 @@ $body: 'SF UI Text', 'San Francisco', -apple-system, BlinkMacSystemFont, sans-se
 .font-size-inherit { font-size: inherit; }
 .text-decoration-none { text-decoration: none; }
 
-.bold { font-weight: 700; }
-.medium { font-weight: 500; }
-.regular { font-weight: 400; }
+@if (variable-exists(font-weights)) {
+  @each $fw-name, $fw-value in $font-weights {
+    .#{$fw-name} {
+      font-weight: #{$fw-value};
+    }
+  }
+}
+
 .italic { font-style: italic; }
 .caps { text-transform: uppercase; }
 
